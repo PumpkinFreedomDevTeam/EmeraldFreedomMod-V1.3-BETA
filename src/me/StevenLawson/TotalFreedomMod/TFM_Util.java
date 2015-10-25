@@ -74,7 +74,7 @@ public class TFM_Util
     public static final List<String> RF_DEVELOPERS = Arrays.asList("Hockeyfan365");
     public static final List<String> EXECUTIVES = Arrays.asList("dont need this right now");
     public static final List<String> COCFD = Arrays.asList("notused");
-    public static final List<String> SYS = Arrays.asList("ManUtdPlaysMC");
+    public static final List<String> SYS = Arrays.asList("TheGamingSprie");
     public static final List<String> SPECIALISTS = Arrays.asList("not used");
     public static final List<String> COOWNER = Arrays.asList("not used");
     public static final List<String> LEADDEV = Arrays.asList("fuckidyfuckyouneedtocheckTFM_PlayerRank4this");
