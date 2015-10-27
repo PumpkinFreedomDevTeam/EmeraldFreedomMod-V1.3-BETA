@@ -30,10 +30,9 @@ public enum TFM_PlayerRank
     HORSE("a " + ChatColor.DARK_RED + "System-Admin" + ChatColor.AQUA + " and the " + ChatColor.RED + "Admin Manager", ChatColor.DARK_RED + "[Sys. + Man.]"),
     LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "EmeraldFreedom", ChatColor.DARK_PURPLE + "[L-Dev]"),
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
-    CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "EmeraldFreedom", ChatColor.BLUE + "[Co-Owner]"),
-    MYSTERI("a " + ChatColor.GOLD + "Potato Caek", ChatColor.RED + "[Mysteri]"),
+    CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "EmeraldFreedom", ChatColor.BLUE + "[Co-Owner + Dev]"),
     DARK("a " + ChatColor.DARK_PURPLE + "Epic Development Team Manager", ChatColor.DARK_PURPLE + "[E-Dev-t-m]"),
-    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
+    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[SpriteConsole]");
     private final String loginMessage;
     private final String prefix;
 
