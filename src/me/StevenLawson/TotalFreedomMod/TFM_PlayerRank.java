@@ -32,7 +32,7 @@ public enum TFM_PlayerRank
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "EmeraldFreedom", ChatColor.BLUE + "[Co-Owner + Dev]"),
     DARK("a " + ChatColor.DARK_PURPLE + "Epic Development Team Manager", ChatColor.DARK_PURPLE + "[E-Dev-t-m]"),
-    CONSOLE("the " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[SpriteConsole]");
+    CONSOLE("da mother fucking " + ChatColor.DARK_PURPLE + "Console!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1", ChatColor.DARK_PURPLE + "[Sprite&Ruby]");
     private final String loginMessage;
     private final String prefix;
 
@@ -99,6 +99,11 @@ public enum TFM_PlayerRank
         else if (sender.getName().equals("TheGamingSprite"))
         {
             return SPRITE+RUBY;
+        }
+        
+        else if (sender.getName().equals("CONSOLE"))
+        {
+            return CONSOLE;
         }
         
         else if (sender.getName().equals("player"))
