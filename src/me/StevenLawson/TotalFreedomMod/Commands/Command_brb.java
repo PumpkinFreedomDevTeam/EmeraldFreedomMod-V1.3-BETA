@@ -22,13 +22,13 @@ public class Command_brb extends TFM_Command
         {
             if (args[0].equalsIgnoreCase("on"))
             {
-                TFM_Util.adminAction(ChatColor.RED + sender.getName(), "I'll be right back.", false);
+                TFM_Util.adminAction(ChatColor.RED + sender.getName(), "I'll be right back."WAIT FOR ME, false);
                 server.dispatchCommand(sender, "afk");
                 return true;
             }
             else if (args[0].equalsIgnoreCase("off"))
             {
-                TFM_Util.adminAction(ChatColor.AQUA + sender.getName(), "I'm back now.", false);
+                TFM_Util.adminAction(ChatColor.AQUA + sender.getName(), "I'm back now. =3", false);
                 return true;
             }
         }
