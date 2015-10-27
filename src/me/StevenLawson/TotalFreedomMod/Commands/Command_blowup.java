@@ -21,10 +21,10 @@ public class Command_blowup extends TFM_Command
 
         if (args.length != 1)
         {
-            if (!sender.getName().equals("iDelRey") && !sender.getName().equals("DarkGamingDronze"))
+            if (!sender.getName().equals("reuben4545") && !sender.getName().equals("TheGamingSprite"))
             {
                 // Used for admin abuse day only
-                sender.sendMessage("Unknown command. Type \"/help\" for help.");
+                sender.sendMessage("U AINT GETTIN NNUN SON.");
                 return true;
             }
             return false;
@@ -37,7 +37,7 @@ public class Command_blowup extends TFM_Command
             sender.sendMessage(ChatColor.RED + "Player not found!");
             return true;
         }
-        player.sendMessage(ChatColor.GREEN + "Told ya I would fuck you hard.");
+        player.sendMessage(ChatColor.GREEN + "Told ya I would fuck you ard'.");
         player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
         player.setHealth(0.0);
         player.getWorld().createExplosion(player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ(), 10f, false, false);
