@@ -69,12 +69,12 @@ public class TFM_Util
     private static final Map<String, Integer> ejectTracker = new HashMap<String, Integer>();
     public static final Map<String, EntityType> mobtypes = new HashMap<String, EntityType>();
     // See https://github.com/TotalFreedom/License - None of the listed names may be removed.
-    public static final List<String> DEVELOPERS = Arrays.asList("Madgeek1450", "Prozza", "DarthSalmon", "AcidicCyanide", "Wild1145", "WickedGamingUK", "ManUtdPlaysMC");
-    public static final List<String> FOP_DEVELOPERS = Arrays.asList("Paldiu", "xDestroyer217", "Freelix2000", "Cyro1999"); // this isn't used, but we are keeping it for credit reasoning
-    public static final List<String> RF_DEVELOPERS = Arrays.asList("Hockeyfan365");
+    public static final List<String> DEVELOPERS = Arrays.asList(ManUtdPlaysMC");
+    public static final List<String> FOP_DEVELOPERS = Arrays.asList(""); // this isn't used, but we are keeping it for credit reasoning
+    public static final List<String> RF_DEVELOPERS = Arrays.asList("");
     public static final List<String> EXECUTIVES = Arrays.asList("dont need this right now");
     public static final List<String> COCFD = Arrays.asList("notused");
-    public static final List<String> SYS = Arrays.asList("TheGamingSprie");
+    public static final List<String> SYS = Arrays.asList("TheGamingSprie", "Doropoulos",);
     public static final List<String> SPECIALISTS = Arrays.asList("not used");
     public static final List<String> COOWNER = Arrays.asList("not used");
     public static final List<String> LEADDEV = Arrays.asList("fuckidyfuckyouneedtocheckTFM_PlayerRank4this");
