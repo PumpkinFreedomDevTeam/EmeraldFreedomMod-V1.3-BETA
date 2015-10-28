@@ -28,19 +28,19 @@ public class TFM_ServerListener implements Listener
 
         if (TFM_ConfigEntry.ADMIN_ONLY_MODE.getBoolean())
         {
-            event.setMotd(ChatColor.RED + "RubyFreedom is in admin-only mode.");
+            event.setMotd(ChatColor.RED + "EmeraldFreedom is in admin-only mode. Check back later");
             return;
         }
 
         if (Bukkit.hasWhitelist())
         {
-            event.setMotd(ChatColor.RED + "RubyFreedom's whitelist is enabled");
+            event.setMotd(ChatColor.RED + "EmeraldFreedom's whitelist is enabled");
             return;
         }
 
         if (Bukkit.getOnlinePlayers().size() >= Bukkit.getMaxPlayers())
         {
-            event.setMotd(ChatColor.RED + "RubyFreedom is full.");
+            event.setMotd(ChatColor.RED + "EmeraldFreedom is full.");
             return;
         }
 
