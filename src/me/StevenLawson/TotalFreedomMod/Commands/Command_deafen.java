@@ -36,7 +36,7 @@ public class Command_deafen extends TFM_Command
             }
         }
         
-       sender.sendMessage(ChatColor.RED + "If you abuse deafen, You're done for RubyFreedom");
+       sender.sendMessage(ChatColor.RED + "If you abuse deafen, You're done for EmeraldFreedom");
 
         return true;
     }
