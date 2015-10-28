@@ -21,7 +21,7 @@ public enum TFM_PlayerRank
     FAKEIMPOSTOR("a " + ChatColor.YELLOW + ChatColor.UNDERLINE + "FAKE Impostor", ChatColor.YELLOW.toString() + ChatColor.UNDERLINE + "[IMP]"),
     NON_OP("a " + ChatColor.GREEN + "Non-OP", ChatColor.GREEN.toString()),
     OP("an " + ChatColor.RED + "OP", ChatColor.RED + "[OP]"),
-    SPRITE+RUBY("one of the " + ChatColor.GOLD + "Main-Founders + Main-Owners!", ChatColor.DARK_PURPLE + "[Main-Owner]"),
+    SPRITE+RUBY("one of the " + ChatColor.RED + "Main-Founders + Main-Owners!", ChatColor.DARK_PURPLE + "[Main-Owner]"),
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "[SA]"),
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.DARK_GREEN + "[STA]"),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
@@ -32,7 +32,10 @@ public enum TFM_PlayerRank
     EXEC("an " + ChatColor.YELLOW + "Executive", ChatColor.YELLOW + "[Exec]"),
     CO_OWNER("a " + ChatColor.BLUE + "Co-Owner" + ChatColor.AQUA + " of " + ChatColor.RED + "EmeraldFreedom", ChatColor.BLUE + "[Co-Owner + Dev]"),
     DARK("a " + ChatColor.DARK_PURPLE + "Epic Development Team Manager", ChatColor.DARK_PURPLE + "[E-Dev-t-m]"),
-    CONSOLE("da mother fucking " + ChatColor.DARK_PURPLE + "Console!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1", ChatColor.DARK_PURPLE + "[Sprite&Ruby]");
+    CONSOLE("a" + ChatColor.DARK_PURPLE + "SpriteConsole", ChatColor.DARK_PURPLE + "[Sprite&Ruby]");
+    SYS-HOST("a" + ChatColor.DARK_BLUE + "System Host", ChatColor.DARK_RED + "[Sys-Host]"),
+    DERP("a") + ChatColor.DARK_GREEN + "EmeraldAdmin", ChatColor.DARK_BLUE + "[EA]"),
+    
     private final String loginMessage;
     private final String prefix;
 
@@ -116,6 +119,14 @@ public enum TFM_PlayerRank
             return HORSE;
         }
 
+ else if (sender.getName().equals("Doropoulos"))
+        {
+            return EMERALDADMIN;
+        }
+
+
+
+
         else if (sender.getName().equals("DarkGamingDronze"))
         {
             return DARK;
@@ -136,9 +147,9 @@ public enum TFM_PlayerRank
             return SYS_ADMIN;
         }
 
-        else if (sender.getName().equals("MysteriAce"))
+        else if (sender.getName().equals("IMarsBarPvp"))
         {
-            return MYSTERI;
+            return SYS-HOST;
         }
 
         else if (EXECUTIVES.contains(sender.getName()))
